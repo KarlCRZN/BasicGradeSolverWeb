@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="welcomeISCP.png">
+    <title>Contact Information</title>
+</head>
+<body>
+    <header>
+        <h1>International State College of the Philippines (ISCP)</h1>
+        <img src="logo.png" width="200" height="200">
+    </header>
+
+    <nav>
+        <a href="Index.html">Home</a>
+        <a href="#">Contact Information</a>
+        <a href="GradeSolver.html">Grade Solver</a>
+    </nav>
+
+    <div class="container">
+        <form id="contactForm" action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="philippines">Philippines</option>
+                <option value="usa">US</option>
+                <option value="england">Japan</option>
+                <option value="england">Indonesia</option>
+                <option value="england">Thailand</option>
+                <option value="england">Vietnam</option>
+                <option value="england">Singapore</option>
+                <option value="england">Austrilia</option>
+                <option value="england">North Korea</option>
+            </select>
+
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <a href="https://www.facebook.com/ISCPhilippines/videos/iscp-enroll-now/802699787671154/"> Enroll Now!
+
+      <script>
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    });
+      </script>
+<hr>
+      <footer>
+          <a href="https://www.facebook.com/ISCPhilippines"> Facebook Page</a>
+          <p>Email: contactiscpmanagement@gmail.com </p>
+          <p>Twitter: @ISCP_Official</p>
+          <p>Instagram: https://www.instagram.com/iscp_official/</p>
+      </footer>
+</body>
+</html>

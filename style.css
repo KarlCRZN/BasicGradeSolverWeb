@@ -1,0 +1,81 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff; 
+    color: #333;
+}
+
+header {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #2980b9; 
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #3498db; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.grade-solver {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #3498db; 
+    border-radius: 5px;
+}
+
+.grade-solver h2 {
+    color: #3498db; 
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pictures/logo.png">
+    <title>Grade Solver</title>
+</head>
+<body>
+    <header>
+        <h1>International State College of the Philippines (ISCP)</h1>
+        <img src="logo.png" width="200" height="200">
+    </header>
+
+    <nav>
+        <a href="Index.html">Home</a>
+        <a href="Contacts.html">Contact Information</a>
+        <a href="">Grade Solver</a>
+    </nav>
+
+<div class="grade-solver">
+    <h2>Grade Solver</h2>
+    <p>Please enter your grades for each Quarter:</p>
+
+    <script>
+        var firstQuarter = parseFloat(prompt("Enter your grade for the First Quarter:"));
+        var secondQuarter = parseFloat(prompt("Enter your grade for the Second Quarter:"));
+        var thirdQuarter = parseFloat(prompt("Enter your grade for the Third Quarter:"));
+        var fourthQuarter = parseFloat(prompt("Enter your grade for the Fourth Quarter:"));
+
+        var average = (firstQuarter + secondQuarter + thirdQuarter + fourthQuarter) / 4;
+
+        document.write("<p>Your grades: First Quarter: " + firstQuarter + ", Second Quarter: " + secondQuarter +
+            ", Third Quarter: " + thirdQuarter + ", Fourth Quarter: " + fourthQuarter + "</p>");
+        document.write("<p id='result'>Your average grade is: " + average.toFixed(2) + "</p>");
+    </script>
+</div>
+
+</body>
+</html> 
